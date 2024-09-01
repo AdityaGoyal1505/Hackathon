@@ -11,3 +11,10 @@ cardsContainer.addEventListener("click", (e) => {
 
   target.classList.add("active");
 });
+
+var typed=new Typed(".auto-type",{
+    strings:["AYURVEDA", "YOGA","UNANI","SIDDA","HOMEOPATHY"],
+    typeSpeed:120,
+    backSpeed:80,
+    loop:true,
+})
