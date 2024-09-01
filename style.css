@@ -59,23 +59,27 @@ nav li:hover{
 .green{
     background-color: rgb(126, 255, 114,.35);
     height: 75vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     justify-content: center;
+    align-items: center;
     color: white;
-    font-size: 25px;
+    font-size: 60px;
     padding-left: 30px;
     padding-right: 30px;
-    text-shadow: 2px 2px 8px black;
-    line-height: 30px;
+    text-shadow: 2px 2px 15px black;
+    line-height: 100px;
     word-spacing: 2px;
     letter-spacing: 2px;
-
 }
-
-
+.intro{
+    padding-top: 60px;
+}
+.green span{
+    font-size: 90px;
+    margin-top: 20px;
+    font-weight: bolder;
+    display: inline-block;
+    color: #fbff00;
+}
 .about{
     margin-top: 50px;
     display: flex;
