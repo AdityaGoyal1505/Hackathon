@@ -4,44 +4,35 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: Arial;
+}
 .header{
-    
-    background: rgba(255, 255, 255, 0.25);
-    /* border-radius: 16px; */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.4px);
-    -webkit-backdrop-filter: blur(3.4px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 .header h1{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 10px;
 }
 nav li{
     text-decoration: none;
     list-style-type:none;
     margin: 5px;
-    color: rgb(0, 0, 0);
-    background-color: rgba(222, 222, 222, 0.5);
+    color: rgb(255, 255, 255);
     padding: 4px;
-    font-size: 18px;
-    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 nav a{
     color: black;
     text-decoration: none;
 }
 nav li:hover{
-    background-color: rgba(222, 222, 222, 0.9);
-    font-weight: bold;
+    color: orangered;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -50,18 +41,19 @@ nav li:hover{
 }
 .front{
     background-image: url('Front.webp');
-    height: 75vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .green{
-    height: 75vh;
+    /* background-color: rgb(126, 255, 114,.35); */
+    height: 100vh;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     padding-left: 30px;
     padding-right: 30px;
     text-shadow: 2px 2px 15px black;
@@ -70,10 +62,10 @@ nav li:hover{
     letter-spacing: 2px;
 }
 .intro{
-    padding-top: 60px;
+    padding-top: 150px;
 }
 .green span{
-    font-size: 90px;
+    font-size: 70px;
     margin-top: 20px;
     font-weight: bolder;
     display: inline-block;
